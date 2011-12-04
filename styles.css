@@ -1,0 +1,144 @@
+body {
+	padding: 0px;
+	font-family: Trebuchet MS;
+}
+
+.outline s, .outline b, .outline u, .outline p {background-color: #B8C8D8;}
+
+.active td {background-color: #FFFFFF !important;}
+.active td.valid {background-color: #B8C8D8 !important;}
+
+.activescored td {background-color: #FFFFFF !important;}
+.activescored td.valid.beat {background-color: #B8C8D8 !important;}
+.activescored td.valid.lose {background-color: #90A0B0 !important;}
+.activescored td.valid.draw {background-color: #DFEFFF !important;}
+
+.hide {color: #FFFFFF !important;}
+.outline-hide {color: #B8C8D8 !important; background-color: #B8C8D8;}
+
+@media print {
+	.hide span {visibility: hidden;}
+	input, #player2 {visibility: hidden;}
+}
+
+#title {
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+
+#player1, #player2 {
+	font-family: HyperCards;
+	padding-top: 6px;
+	margin-top: 0px;
+}
+
+#buttons {
+	padding-top: 2px;
+	margin-top: 25px;
+}
+
+#holdem, #foldem {
+	font-family: WildWest;
+	font-size: 15px;
+	height: 30px;
+	margin-top: 6px;
+	margin-bottom: 4px;
+}
+
+#flop, #turn, #river {
+	font-family: HyperCards;
+	border-collapse: separate;
+	empty-cells: show;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#flop td, #turn td, #river td {
+	text-align: center;
+}
+
+#flop div, #turn div, #river div {
+	width: 35px;
+	overflow: hidden;
+}
+
+#river {
+	position: relative;
+	margin-bottom: -165px;
+}
+
+#player1 {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#hole {
+	padding-right: 250px;
+}
+
+#hole td div {
+	width: 35px;
+	overflow: hidden;
+}
+
+#actions {
+	padding-top: 15px;
+}
+
+td {
+	width: 25px;
+	height: 35px;
+	text-align: center;
+}
+
+.rounded, td {
+	border: 1px solid gray;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.orange, td {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+
+.rounded:empty, td:empty {
+	border: none;
+	background: none;
+	filter: none;
+}
+
+.rounded p {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 7px 6px;
+}
+
+.rounded s, .rounded b, .rounded u, .rounded p {
+	margin: 0px;
+	padding: 0px;
+	height: 1px;
+	font-size: .1em;
+	overflow: hidden;
+	display: block;
+	border-width: 0px 1px;
+	border-style: solid;
+}
+
+.rounded s {border-color: #FFFFFF;}
+.rounded b {border-color: #B2B2B2;}
+.rounded b b {border-color: #8C8C8C;}
+.rounded b b b {border-color: #D8D8D8;}
+.rounded u {border-color: #666666; border-width: 1px 1px;}
+.rounded p {border-color: #666666; height: 100%; font-size: 1em; overflow: visible;}
+
+.rounded p {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 7px 6px;
+}
