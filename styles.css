@@ -104,9 +104,9 @@ td {
 	color: #332211;
 	border: 2px outset #1A2E37;
 	background: #518394;
-	//background: -webkit-gradient(linear, left top, left bottom, from(#FFEEDD), to(#FFDDBB));
+	background: -webkit-gradient(linear, left top, left bottom, from(#A0B0C0), to(#5D8796));
 	background: -moz-linear-gradient(top, #A0B0C0, #5D8796);
-	//filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#A0B0C0', endColorstr='#5D8796');
 }
 
 .rounded:empty, td:empty {
