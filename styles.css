@@ -5,6 +5,9 @@ body {
 	background-size: 100% 100%;
 }
 
+@media only screen and (orientation: landscape) {
+}
+
 .outline s, .outline b, .outline u, .outline p {background-color: #B8C8D8;}
 
 .active td {background-color: #FFFFFF !important;}
