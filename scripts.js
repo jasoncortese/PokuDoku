@@ -179,6 +179,8 @@ function displayBoard (board) {
 		}
 	}
 	d.appendChild(table);
+	
+	jQuery('table table tr:nth(1)').css('padding-left', '100');
 	//makeRounded(d.getElementsByTagName('table')[0]);
 }
 

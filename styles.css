@@ -87,9 +87,9 @@ table table {
 }
 
 table table td, #player1 td  {
-	width: 25px;
-	height: 35px;
-	font-size: 12px;
+	width: 15px;
+	height: 20px;
+	font-size: 7px;
 	font-weight: normal;
 	text-align: center;
 	vertical-align: center;
