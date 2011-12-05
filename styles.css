@@ -66,7 +66,7 @@ body {
 
 #river {
 	position: relative;
-	margin-bottom: -165px;
+	margin-bottom: -65px;
 }
 
 #player1 {
@@ -74,23 +74,25 @@ body {
 	margin-bottom: 50px;
 }
 
-#hole {
-	padding-right: 250px;
-}
-
-#hole td div {
-	width: 35px;
-	overflow: hidden;
-}
-
 #actions {
 	padding-top: 15px;
 }
 
-td {
-	width: 35px;
-	height: 45px;
+table table {
+	width: inherit;
+}
+
+#player1 table {
+	width: inherit;
+}
+
+table table td, #player1 td  {
+	width: 25px;
+	height: 35px;
+	font-size: 12px;
+	font-weight: normal;
 	text-align: center;
+	vertical-align: center;
 }
 
 .rounded, td {
@@ -128,12 +130,6 @@ td.outline {
 	filter: none;
 }
 
-.rounded p {
-	font-size: 18px;
-	font-weight: normal;
-	padding: 7px 6px;
-}
-
 .rounded s, .rounded b, .rounded u, .rounded p {
 	margin: 0px;
 	padding: 0px;
@@ -151,9 +147,3 @@ td.outline {
 .rounded b b b {border-color: #D8D8D8;}
 .rounded u {border-color: #666666; border-width: 1px 1px;}
 .rounded p {border-color: #666666; height: 100%; font-size: 1em; overflow: visible;}
-
-.rounded p {
-	font-size: 18px;
-	font-weight: normal;
-	padding: 7px 6px;
-}
