@@ -13,7 +13,7 @@ body {
 .activescored td.valid.lose {background-color: #90A0B0 !important;}
 .activescored td.valid.draw {background-color: #DFEFFF !important;}
 
-.hide {color: #FFFFFF !important;}
+.hide {color: transparent !important;}
 .outline-hide {color: #B8C8D8 !important; background-color: #B8C8D8;}
 
 @media print {
@@ -86,8 +86,8 @@ body {
 }
 
 td {
-	width: 25px;
-	height: 35px;
+	width: 35px;
+	height: 45px;
 	text-align: center;
 }
 
