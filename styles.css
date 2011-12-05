@@ -2,6 +2,7 @@ body {
 	padding: 0px;
 	font-family: Trebuchet MS;
 	background: url(background.jpg);
+	background-size: 320px 480px;
 }
 
 .outline s, .outline b, .outline u, .outline p {background-color: #B8C8D8;}
@@ -99,13 +100,13 @@ td {
     -webkit-border-radius: 5px;
 }
 
-.orange, td {
-	color: #fef4e9;
-	border: solid 1px #da7c0c;
-	background: #f78d1d;
-	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
-	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+.orange, td, input[type=button] {
+	color: #332211;
+	border: 2px outset #1A2E37;
+	background: #518394;
+	//background: -webkit-gradient(linear, left top, left bottom, from(#FFEEDD), to(#FFDDBB));
+	background: -moz-linear-gradient(top, #A0B0C0, #5D8796);
+	//filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
 }
 
 .rounded:empty, td:empty {
