@@ -1,6 +1,7 @@
 body {
 	padding: 0px;
 	font-family: Trebuchet MS;
+	background: url(background.jpg);
 }
 
 .outline s, .outline b, .outline u, .outline p {background-color: #B8C8D8;}
