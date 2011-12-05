@@ -15,9 +15,6 @@ body {
 .activescored td.valid.lose {background-color: #90A0B0 !important;}
 .activescored td.valid.draw {background-color: #DFEFFF !important;}
 
-.hide {color: transparent !important;}
-.outline-hide {color: #B8C8D8 !important; background-color: #B8C8D8;}
-
 @media print {
 	.hide span {visibility: hidden;}
 	input, #player2 {visibility: hidden;}
@@ -100,13 +97,26 @@ td {
     -webkit-border-radius: 5px;
 }
 
-.orange, td, input[type=button] {
+.card, td, input[type=button] {
 	color: #332211;
 	border: 2px outset #1A2E37;
 	background: #518394;
 	background: -webkit-gradient(linear, left top, left bottom, from(#A0B0C0), to(#5D8796));
 	background: -moz-linear-gradient(top, #A0B0C0, #5D8796);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#A0B0C0', endColorstr='#5D8796');
+}
+
+.hide {
+	color: transparent !important;
+}
+
+td.outline {
+	color: #B8C8D8 !important; 
+	background-style: inset;
+	background-color: #518394;
+	background: -webkit-gradient(linear, left top, left bottom, from(#5D8796), to(#518394));
+	background: -moz-linear-gradient(top, #5D8796, #518394);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5D8796', endColorstr='#518394');
 }
 
 .rounded:empty, td:empty {
