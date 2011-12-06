@@ -10,6 +10,8 @@ window.onload = function () {
 	//labelTable();
 }
 
+var _ = '<br/>';
+
 window.fire = function (board) {
 	S = 5;
 
@@ -131,7 +133,7 @@ function displayPlayer (player, name, hide) {
 
 	var row = document.createElement('tr');
 	var cell = document.createElement('td');
-	cell.innerHTML = card[player[0]];
+	cell.innerHTML = card[player[0]].split('').join(_);
 	if (hide) {
 		cell.setAttribute('class', 'hide');
 	}
@@ -141,7 +143,7 @@ function displayPlayer (player, name, hide) {
 	row.appendChild(cell);
 
 	var cell = document.createElement('td');
-	cell.innerHTML = card[player[1]];
+	cell.innerHTML = card[player[1]].split('').join(_);
 	if (hide) {
 		cell.setAttribute('class', 'hide');
 	}
@@ -170,7 +172,9 @@ function displayBoard (board) {
 		cell = document.createElement('td');
 		row.appendChild(cell);
 		if (view[i] <= S) {
-			cell.innerHTML = card[board[i]];
+			cell.innerHTML = card[board[i]].split('').join(_);
+			if (/\@|\#/.test(card[board[i]])) cell.style.color = 'red';
+			else cell.style.color = 'black';
 			if (~board.space.indexOf(j++)) {
 				cell.setAttribute('class', 'hide');
 			} else {

@@ -71,7 +71,9 @@ body {
 
 #player1 {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
+	margin-left: -100px;
+	margin-top: -41px;
 }
 
 #actions {
@@ -87,9 +89,11 @@ table table {
 }
 
 table table td, #player1 td  {
-	width: 15px;
-	height: 20px;
-	font-size: 7px;
+	width: 17px;
+	height: 22px;
+	font-size: 13px;
+	line-height: 11px;
+	padding-top: 4px;
 	font-weight: normal;
 	text-align: center;
 	vertical-align: center;
@@ -104,10 +108,10 @@ table table td, #player1 td  {
 
 .card, td, input[type=button] {
 	color: #332211;
-	border: 2px outset #1A2E37;
-	background: #518394;
+	border: 1px outset #1A2E37;
+	background-color: #518394;
 	background: -webkit-gradient(linear, left top, left bottom, from(#A0B0C0), to(#5D8796));
-	background: -moz-linear-gradient(top, #A0B0C0, #5D8796);
+	background: -moz-linear-gradient(top, #DFEFFF, #A0B0C0);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#A0B0C0', endColorstr='#5D8796');
 }
 
@@ -116,11 +120,11 @@ table table td, #player1 td  {
 }
 
 td.outline {
-	color: #B8C8D8 !important; 
-	background-style: inset;
+	color: #332211; 
+	background-style: outset;
 	background-color: #518394;
 	background: -webkit-gradient(linear, left top, left bottom, from(#5D8796), to(#518394));
-	background: -moz-linear-gradient(top, #5D8796, #518394);
+	background: -moz-linear-gradient(top, #A0B0C0, #90A0B0);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#5D8796', endColorstr='#518394');
 }
 
